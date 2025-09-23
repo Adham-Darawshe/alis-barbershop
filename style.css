@@ -1,0 +1,310 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(94, 98, 102);
+    color: rgb(217, 225, 233);
+    scroll-behavior: smooth;
+}
+
+
+header{
+    font-family:'Courier New', Courier, monospace;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 30px 6%;
+}
+
+.nav-logo{
+    text-decoration: none;
+    cursor: pointer;
+    margin-right: auto;
+}
+
+.nav-logo h2{
+    transition: all 0.3s ease 0s;
+}
+
+.nav-logo h2:hover{
+    color: #00ADB5;
+}
+
+.nav-links{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 180px;
+    gap: 30%;
+}
+
+.nav-links li a{
+    text-decoration: none;
+    transition: all 0.4s ease 0s;
+}
+
+.nav-links li a:hover{
+    color: #00ADB5;
+}
+
+.sign-btn{
+    padding: 0.7rem 1.4rem;
+    border-radius: 25px;
+    border: 1.5px solid #00ADB5;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+.sign-btn:hover{
+    background-color: #00ADB5;
+}
+
+.nav-comma{
+    color: #00ADB5;
+}
+
+.nav-container{
+    display: flex;
+    
+}
+
+a{
+    text-decoration: none;
+}
+
+.book-container{
+    height: 640px;
+    width: 100%;
+    position: relative;
+}
+
+.book-btn-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-color: #394140;
+}
+
+.appointments-btn-container{
+    position: absolute;
+    bottom: 40px;
+    left: 84%;
+    background-color: #394140;
+}
+
+.appointments-btn{
+    padding: 1rem 2rem;
+    background-color: #357043;
+    border-radius: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    transition: all 0.3s ease 0s;
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+.appointments-btn:hover{
+    background-color: #3e9752;
+}
+
+.book-btn{
+    padding: 25px 65px;
+    border-radius: 50px;
+    font-size: 2.5rem;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 200;
+    border: 1.5px solid whitesmoke;
+    transition: all 0.3s ease 0s;
+    background-color:#3e5d67;
+        cursor: pointer;
+}
+
+.book-btn:hover{
+    background-color:rgb(99, 149, 143);
+}
+
+.location{
+    height: 700px;
+    display: flex;
+    position: relative;
+}
+
+.location-description{
+    position: absolute;
+    padding-left: 80px;
+    margin-right: 60%;
+    padding-top:230px;
+    justify-content: center;
+}
+
+.between-p-location{
+    position: absolute;
+    height: 270px;
+    width: 1px;
+    border: 1px solid white;
+    margin-left: 43%;
+    margin-top: 170px;
+}
+
+.map-location{
+    margin-left: 54%;
+    padding-right: 30px;
+    padding-top: 80px;
+    padding-bottom: 30px;
+    position: absolute;
+}
+
+.map-location iframe{
+    border-radius: 30px;
+}
+
+.location-description h1{
+    font-size: 3rem;
+}
+
+.about-pic{
+    position: absolute;
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    box-shadow: 10px 10px 20px rgba(227, 209, 209, 0.5);
+    transition: all 0.3s ease 0s;
+}
+
+.about-img-container img:hover{
+    box-shadow: 10px 10px 20px rgba(255, 255, 255, 0.5);
+}
+
+.about-img-container{
+    padding-top:50px;  
+    padding-left: 190px;
+    position: relative;
+}
+
+.about-p-container{
+    padding-top: 280px;
+    background: none;
+    position: absolute;
+    height: 70px;
+    width: 500px;
+    margin-left: 60%;
+    margin-top: -200px;
+}
+
+.about-p-container p{
+    font-weight: 200;
+    text-align: center;
+}
+
+.line-after-location{
+    background:none;
+    margin-top: 650px;
+}
+
+.about-p-container h1{
+    font-size: 3rem;
+    padding-bottom: 10px;
+    text-align: center
+}
+
+.between-pic-des-about{
+    height: 300px;
+    width: 1.5px;
+    border: 1.5px solid white;
+    position: absolute;
+    margin-left: 55%;
+    margin-top: 42px;
+}
+
+.about-container{
+    padding-top: 34px;
+}
+
+footer{
+    background-color: rgb(42, 37, 37);
+    height: 150px;
+    margin-top: 500px;
+    position:relative;
+}
+
+.fa-instagram{
+    font-size: 22px;
+    position: absolute;
+    margin-left: 90%;
+    margin-top: 4.6%;
+    border-radius: 50%;
+    background-color: rgb(42, 37, 37);
+}
+
+.follow-p{
+    position: absolute;
+    background-color: rgb(42, 37, 37);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.2rem;
+    margin-left: 86.1%;
+    margin-top: 1.8%;
+    cursor: default;
+}
+
+.fa-facebook-f{
+    font-size: 22px;
+    position: absolute;
+    margin-left: 88%;
+    margin-top: 4.5%;
+    border-radius: 50%;
+    background-color: rgb(42, 37, 37);
+    
+}
+.contact-container{
+    background-color: rgb(42, 37, 37);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.contact-container p{
+    background-color: rgb(42, 37, 37);
+    position: absolute;
+    margin-top: 1.8%;
+    margin-left: 48%;
+    align-items: center;
+    font-size: 1.2rem;
+    cursor: default;
+     transition: all 0.3s ease 0s;
+}
+
+.contact-container h6{
+    background-color: rgb(42, 37, 37);
+    position: absolute;
+    margin-left:48.64% ;
+    margin-top: 4.5%;
+    cursor: default;
+    font-size: 0.85rem;
+    transition: all 0.3s ease 0s;
+}
+
+.contact-container h6:hover{
+    color: #00ADB5;
+    cursor: pointer;
+}
+
+
+.footer-container ul{
+    position: absolute;
+    background-color: rgb(42, 37, 37);
+    margin-top: 1.8%;
+    margin-left: 8%;
+    list-style: none;
+}
+
+.footer-container ul li{
+    background-color: rgb(42, 37, 37);
+    padding-bottom: 30px;
+    text-align: center;
+    transition: all 0.3s ease 0s;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.footer-container ul li:hover{
+    color: #00ADB5;
+}
